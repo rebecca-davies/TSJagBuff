@@ -1,5 +1,6 @@
 # TSJagBuff
 [![npm version](https://badge.fury.io/js/tsjagbuff.svg)](https://badge.fury.io/js/tsjagbuff)
+
 TSJagBuff is a typescript extension library for `DataView` objects, providing support for Jagex buffer through refactored jagex methods.
 
 ## Install & Usage
