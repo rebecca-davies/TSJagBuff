@@ -14,8 +14,8 @@ import "tsjagbuff"
 #### Example:
 ```ts
 while( true ) {
-    switch( buffer.g1() ) {   //6 
-        case 0:               //reads a single byte from the `DataView` wrapper on an `ArrayBuffer`   
+    switch( buffer.g1() ) {   // 0      reads a single byte
+        case 0:                 
           return object;
     }
 }
@@ -25,8 +25,8 @@ while( true ) {
 while( true ) {
     switch( buffer.g1() ) {                            
         case 6:                           
-          this.name = buffer.gjstr();     //abyssal_whip    
-          break;                          //reads incoming bytes until a break (\n) is found, converts and returns string
+          this.name = buffer.gjstr();   // abyssal_whip     reads a byte array and converts to string
+          break;                          
     }
 }
 ```
