@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rebecca-davies/JagByteBuf-ts.git"
+    "url": "git+https://github.com/rebecca-davies/tsjagbuff.git"
   },
   "keywords": [
     "typescript",
@@ -20,7 +20,7 @@
   "author": "Rebecca Davies",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rebecca-davies/JagByteBuf-ts/issues"
+    "url": "https://github.com/rebecca-davies/tsjagbuff/issues"
   },
-  "homepage": "https://github.com/rebecca-davies/JagByteBuf-ts#readme"
+  "homepage": "https://github.com/rebecca-davies/tsjagbuff#readme"
 }
