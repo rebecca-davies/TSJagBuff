@@ -30,4 +30,18 @@ while( true ) {
     }
 }
 ```
+#### Fields
+```ts
+g1() : number;          //read unsigned byte
+g1s() : number;         //read signed byte
+g2() : number;          //read unsigned short
+g2s() : number;         //read signed short
+g3() : number;          //read unsigned medium
+g3s() : number;         //read signed medium
+g4() : number;          //read unsigned int
+g4s() : number;         //read signed int
+gsmart() : number;      //read unsigned smart
+gsmarts() : number;     //read signed smart
+gjstr() : string;       //read jagex string
+```
 
