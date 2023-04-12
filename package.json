@@ -1,0 +1,26 @@
+{
+  "name": "tsjagbuff",
+  "version": "1.0.0",
+  "description": "A typescript wrapper for the `DataView` object providing jagex byte buffer support.",
+  "main": "DataView.ts",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rebecca-davies/JagByteBuf-ts.git"
+  },
+  "keywords": [
+    "typescript",
+    "jagex",
+    "bytebuf",
+    "bytebuffer",
+    "buffer",
+    "wrapper"
+  ],
+  "author": "Rebecca Davies",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rebecca-davies/JagByteBuf-ts/issues"
+  },
+  "homepage": "https://github.com/rebecca-davies/JagByteBuf-ts#readme"
+}
