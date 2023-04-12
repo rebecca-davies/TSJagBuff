@@ -14,7 +14,7 @@ import "tsjagbuff"
 #### Example:
 ```ts
 while( true ) {
-    switch( buffer.g1() ) {   // 0      reads a single byte
+    switch( buffer.g1() ) {   // return 0      reads a single byte
         case 0:                 
           return object;
     }
@@ -25,7 +25,7 @@ while( true ) {
 while( true ) {
     switch( buffer.g1() ) {                            
         case 6:                           
-          this.name = buffer.gjstr();   // abyssal_whip     reads a byte array and converts to string
+          this.name = buffer.gjstr();   // return "abyssal_whip"     reads a byte array and converts to string
           break;                          
     }
 }
